@@ -1,0 +1,32 @@
+[input_files]
+hic_files_repgrp=[data/h1esc/4DNFI9GMP2J8.rebinned.mcool]
+hic_files_testgrp=[data/h1esc/4DNFI9GMP2J8.rebinned.mcool]
+
+
+[data_parameters]
+chroms_order={chr1:1, chr2:2, chr3:3, chr4:4, chr5:5, chr6:6, chr7:7, chr8:8, chr9:9, chr10:10, chr11:11, chr12:12, chr13:13, chr14:14, chr15:15, chr16:16, chr17:17, chr18:18, chr19:19, chr20:20, chr21:21, chr22:22, chrX:23}
+chroms_order_inv={1:chr1, 2:chr2, 3:chr3, 4:chr4, 5:chr5, 6:chr6, 7:chr7, 8:chr8, 9:chr9, 10:chr10, 11:chr11, 12:chr12, 13:chr13, 14:chr14, 15:chr15, 16:chr16, 17:chr17, 18:chr18, 19:chr19, 20:chr20, 21:chr21, 22:chr22, 23:chrX}
+train_chroms=[chr2, chr6, chr5, chr7, chr3, chr11, chr12, chr13, chr14, chr16, chr18, chr19,  chr21, chr22, chrX, chr1, chr15, chr17, chr20]
+val_chroms=[chr4, chr8]
+test_chroms=[chr9, chr10]
+rep_name=heart_left_ventricle
+selected_resolution=128000
+reads_threshold_pos=1.0
+reads_threshold_neg=0.0
+pos_samples=1
+neg_samples=1
+top_percentile=0.9999
+bottom_percentile=0.0001
+nansum_thr_pos=0.98
+total_notnan_frac_pos=0.98
+nansum_thr_neg=0.98
+total_notnan_frac_neg=0.98
+hic_datatype=observed
+hic_raw=NONE
+hic_norm=SCALE
+hic_type=BP
+
+
+[output_files]
+save_prefix=results/common_matrix_h1esc/
+labels_file=results/common_matrix_h1esc/trans_contacts
