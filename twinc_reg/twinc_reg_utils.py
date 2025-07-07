@@ -1,7 +1,7 @@
 """
 twinc_reg_utils.py
 Author: Anupama Jha <anupamaj@uw.edu>
-Utils function for TwinC regression.
+Utility functions for TwinC regression. 
 """
 
 import torch

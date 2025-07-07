@@ -1,7 +1,7 @@
 """
 twinc_visualize.py
 Author: Anupama Jha <anupamaj@uw.edu>
-Chromosome-wide prediction for visualization purposes.
+TwinC classification chromosome-wide prediction for visualization purposes.
 """
 import os
 import gzip

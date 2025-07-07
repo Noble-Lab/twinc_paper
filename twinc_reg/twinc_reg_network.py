@@ -1,6 +1,7 @@
 """
 twinc_reg_network.py
 Author: Anupama Jha <anupamaj@uw.edu>
+TwinC regression model architecture.
 """
 
 import torch

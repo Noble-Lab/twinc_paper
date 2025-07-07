@@ -1,8 +1,7 @@
 """
 twinc_reg_visualize.py
 Author: Anupama Jha <anupamaj@uw.edu>
-Code for visualizing the predictions from the
- TwinC regression model at chromosome level.
+TwinC regression chromosome-wide prediction for visualization purposes.
 """
 import os
 import gzip

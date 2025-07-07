@@ -1,6 +1,7 @@
 """
 twinc_network.py
 Author: Anupama Jha <anupamaj@uw.edu>
+TwinC classification model architecture.
 """
 
 import torch

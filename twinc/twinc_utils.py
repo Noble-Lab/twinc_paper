@@ -1,6 +1,7 @@
 """
 twinc_utils.py
 Author: Anupama Jha <anupamaj@uw.edu>
+Utility functions for TwinC classification. 
 """
 
 import torch

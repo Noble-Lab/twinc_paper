@@ -1,7 +1,7 @@
 """
 twinc_reg_train.py
 Author: Anupama Jha <anupamaj@uw.edu>
-Training code for TwinC regression model
+TwinC regression training routine.
 """
 import os
 import torch

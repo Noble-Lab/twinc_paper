@@ -1,8 +1,7 @@
 """
 twinc_reg_inference.py
 Author: Anupama Jha <anupamaj@uw.edu>
-Inference for regression version of the
-TwinC model.
+TwinC regression inference routine. 
 """
 
 import torch

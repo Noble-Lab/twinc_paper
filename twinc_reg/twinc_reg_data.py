@@ -1,9 +1,8 @@
 """
 twinc_reg_data.py
 Author: Anupama Jha <anupamaj@uw.edu>
-This script produces training,validation
-and test data for training the twinc model.
-This version takes mcool file as input.
+Generate regression labels for trans-contacts.
+This version takes a mcool file as input.
 Adaptive coarse-graining adapted from
 Orca (https://github.com/jzhoulab/orca_manuscript).
 """

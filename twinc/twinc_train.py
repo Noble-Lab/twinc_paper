@@ -1,6 +1,7 @@
 """
 twinc_train.py
 Author: Anupama Jha <anupamaj@uw.edu>
+TwinC classification training routine.
 """
 
 import os

@@ -1,6 +1,7 @@
 """
 twinc_inference.py
 Author: Anupama Jha <anupamaj@uw.edu>
+TwinC classification inference routine. 
 """
 
 import torch
